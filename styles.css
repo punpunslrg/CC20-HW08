@@ -36,7 +36,7 @@ main {
 
 .left {
   border: 1px solid black;
-  width: 25%;
+  width: 20vw;
   background-color: var(--sidebar-color);
   overflow: auto;
   position: fixed;
@@ -54,12 +54,12 @@ main {
 .middle {
   border-top: 1px solid black;
   background-color: lightgoldenrodyellow;
-  inset-inline: 25%;
-  height: 90vh;
+  width: 100vw;
+  left: 20vw;
+  height: auto;
   position: absolute;
   top: 10vh;
   overflow: auto;
-  scrollbar-width: none;
 }
 
 .middle ul li {
@@ -69,12 +69,11 @@ main {
 
 .right {
   border: 1px solid black;
-  width: 25%;
   background-color: var(--sidebar-color);
   height: 90vh;
   overflow: auto;
   position: fixed;
-  width: 25%;
+  width: 20vw;
   top: 10vh;
   right: 0;
 }
